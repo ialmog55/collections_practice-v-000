@@ -39,3 +39,6 @@ def kesha_maker(array)
    end
    kesharay
 end
+def find_a(array)
+  array.grep(/^a/)
+end
