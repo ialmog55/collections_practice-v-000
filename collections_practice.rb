@@ -52,7 +52,7 @@ end
 def add_s(array)
   sarray=[]
   array.each_with_index do |a,index|
-  
+
     if index != 1
       sa="s"+a
     else
