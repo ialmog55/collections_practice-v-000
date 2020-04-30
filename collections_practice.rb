@@ -49,3 +49,15 @@ def sum_array(array)
   end
   sum
 end
+def add_s(array)
+  array.each_with_index do |a,index|
+    sarray=[]
+    if index != 1
+      sa={"s"}+a
+    else
+      sa=a
+    end
+    sarray << sa
+  end
+  sarray
+end
