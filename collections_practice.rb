@@ -42,3 +42,10 @@ end
 def find_a(array)
   array.grep(/^a/)
 end
+def sum_array(array)
+  sum=0
+  array.each do |i|
+    sum = sum + i
+  end
+  sum
+end
