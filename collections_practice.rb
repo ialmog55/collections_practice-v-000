@@ -26,3 +26,17 @@ end
 def reverse_array(array)
   array.reverse
 end
+def kesha_maker(array)
+  kesharay=[]
+  array.each do |name|
+    if name.length >=3
+      keshaname=name[0,2]+"$"
+      if name.length >=4
+        keshaname=keshaname+name[3,name.length-1]
+      end
+      kesharay << keshaname
+    end
+      
+    
+  end
+end
