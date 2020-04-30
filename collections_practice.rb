@@ -36,7 +36,7 @@ def kesha_maker(array)
       end
       kesharay << keshaname
     end
-      
-    
+
+
   end
 end
